@@ -1,6 +1,7 @@
 {
   "name": "cotd",
   "version": "0.0.3",
+  "homepage": "http://iamwaswa.github.io/catch-of-the-day",
   "private": true,
   "devDependencies": {
     "concurrently": "3.5.1",
@@ -26,6 +27,7 @@
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "styles": "stylus -u autoprefixer-stylus ./src/css/style.styl -o ./src/css/style.css",
-    "styles:watch": "stylus -u autoprefixer-stylus -w ./src/css/style.styl -o ./src/css/style.css"
+    "styles:watch": "stylus -u autoprefixer-stylus -w ./src/css/style.styl -o ./src/css/style.css",
+    "deploy": "gh-pages -d build"
   }
 }

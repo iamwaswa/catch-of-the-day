@@ -1,7 +1,10 @@
 {
   "name": "cotd",
   "version": "0.0.3",
-  "homepage": "http://iamwaswa.github.io/catch-of-the-day",
+  "engines":{
+    "node": "8.11.1",
+    "npm": "6.0.1",
+  },
   "private": true,
   "devDependencies": {
     "concurrently": "3.5.1",
